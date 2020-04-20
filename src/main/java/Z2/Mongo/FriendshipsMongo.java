@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class FriendshipsMongo {
-    private FriendsCollection friends;
+    public FriendsCollection friends;
 
     public FriendshipsMongo(){
         try {

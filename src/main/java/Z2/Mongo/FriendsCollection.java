@@ -12,7 +12,7 @@ import com.mongodb.MongoClient;
 
 public class FriendsCollection {
 
-    private MongoCollection friends;
+    public MongoCollection friends;
 
     public FriendsCollection() throws UnknownHostException{
         @SuppressWarnings({ "deprecation", "resource" })
